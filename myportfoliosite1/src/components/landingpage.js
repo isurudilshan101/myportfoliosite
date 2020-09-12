@@ -14,6 +14,30 @@ import {Grid,Cell} from 'react-mdl';
         />
         <div className="banner-text">
             <h1>Full Stack Developer</h1>
+            <hr/>
+            <p>HTML/CSS | bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+            <div className="social-links">
+
+            {/* LinkIn*/}
+            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-linkedin-square"  area-hidden="true"/>
+            </a>
+
+             {/* Github*/}
+             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-github-square"  area-hidden="true"/>
+            </a>
+
+             {/* Freecodecamp*/}
+             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-free-code-camp"  area-hidden="true"/>
+            </a>
+
+             {/* Youtube*/}
+             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-youtube-square"  area-hidden="true"/>
+            </a>
+            </div>
         </div>
          </Cell>
         </Grid>
