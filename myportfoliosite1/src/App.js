@@ -14,6 +14,7 @@ class App extends Component{
                   <a href="/">Link</a>
                   <a href="/">Link</a>
                   <a href="/">Link</a>
+                  <a href="/">new</a>
               </Navigation>
           </Header>
           <Drawer title="Title">
@@ -22,6 +23,7 @@ class App extends Component{
                   <a href="/">Link</a>
                   <a href="/">Link</a>
                   <a href="/">Link</a>
+                  <a href="/">new</a>
               </Navigation>
           </Drawer>
           <Content>
