@@ -28,9 +28,9 @@ import {Grid,Cell} from 'react-mdl';
                 <i className="fa fa-github-square"  area-hidden="true"/>
             </a>
 
-             {/* Freecodecamp*/}
+             {/* Facebook*/}
              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-free-code-camp"  area-hidden="true"/>
+                <i className="fa fa-facebook-square"  area-hidden="true"/>
             </a>
 
              {/* Youtube*/}

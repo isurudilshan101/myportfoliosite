@@ -47,6 +47,13 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 .social-links{
   display: flex;
   justify-content: space-between;
-  
+  width: 50%;
+  margin: auto;
+
+
+}
+.social-links i{
+  color:white;
+  font-size: 5em;
 }
 
