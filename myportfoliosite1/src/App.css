@@ -14,5 +14,6 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 
 .avatar-img{
   height:250px;
-  padding-top:5em;
+ 
+  border-radius: 50%;
 }
