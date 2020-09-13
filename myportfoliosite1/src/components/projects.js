@@ -13,8 +13,25 @@
                 return(
                     <div><h1>This is React</h1></div>
                 )
+            }else if(this.state.activeTab===1){
+                return(
+                    <div><h1>This is Angular</h1></div>
+                )
+            }else if(this.state.activeTab===2){
+                return(
+                    <div><h1>This is VueJs</h1></div>
+                )
+            }else if(this.state.activeTab===3){
+                return(
+                    <div><h1>This is MongoDB</h1></div>
+                )
             }
+
+            
         }
+
+     
+
 
    render() {
      return (
@@ -25,6 +42,9 @@
         <Tab>VueJs</Tab>
         <Tab>MongoDB</Tab>
         </Tabs>
+        <selection>
+            {this.toggleCategories()}
+        </selection>
        </div>
      );
    }
