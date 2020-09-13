@@ -7,6 +7,15 @@
             super(props);
             this.state={activeTab:0};
         }
+
+        toggleCategories(){
+            if(this.state.activeTab===0){
+                return(
+                    <div><h1>This is React</h1></div>
+                )
+            }
+        }
+
    render() {
      return (
        <div className="category-tabs">
