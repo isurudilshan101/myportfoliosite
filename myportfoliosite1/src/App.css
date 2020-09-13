@@ -38,6 +38,10 @@ text-align: center;
   margin:auto;
 }
 
+.project-grid{
+  display: flex;
+}
+
 .banner-text p{
   color:white;
   font-size: 20px;

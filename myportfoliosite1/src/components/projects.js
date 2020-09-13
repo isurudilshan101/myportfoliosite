@@ -11,7 +11,7 @@
         toggleCategories(){
             if(this.state.activeTab===0){
                 return(
-                <div>
+                <div className="project-grid">
                     {/* project 1 */}
                     <Card shadow={5} style={{minwidth:'450',margin:'auto'}}>
                         <CardTitle style={{color:'#fff',height:'176px',background: 'url(https://www.themightycribb.com/wp-content/uploads/2020/07/react-logo.png) center/cover'}}>React Project #1</CardTitle>
@@ -96,7 +96,7 @@
         <Tab>MongoDB</Tab>
         </Tabs>
         <selection>
-            <Grid project-grid>
+            <Grid>
             <Cell col={12}>
             <div className="content"> {this.toggleCategories()}</div>
             </Cell>
