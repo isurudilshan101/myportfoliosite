@@ -1,5 +1,5 @@
  import React, { Component } from 'react';
- import {Tabs,Tab,Grid,Cell, CardTitle, Card, CardText, CardActions} from 'react-mdl';
+ import {Tabs,Tab,Grid,Cell, CardTitle, Card, CardText, CardActions, iconButton,Button,CardMenu} from 'react-mdl';
 
  class Projects extends Component {
 
@@ -18,10 +18,13 @@
                         </CardText>
                         <CardActions border>
                     <Button colored>Github</Button>
-                    <Button colored>Github</Button>
-                    <Button colored>Github</Button>
+                    <Button colored>CodePen</Button>
+                    <Button colored>LiveDemo</Button>
 
                         </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                    <iconButton name="share"/>
+                    </CardMenu>
                     </Card>
                 )
             }else if(this.state.activeTab===1){
