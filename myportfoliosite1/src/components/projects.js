@@ -1,5 +1,5 @@
  import React, { Component } from 'react';
- import {Tabs,Tab} from 'react-mdl';
+ import {Tabs,Tab,Grid,Cell} from 'react-mdl';
 
  class Projects extends Component {
 
@@ -43,7 +43,12 @@
         <Tab>MongoDB</Tab>
         </Tabs>
         <selection>
-            {this.toggleCategories()}
+            <Grid project-grid>
+            <Cell col={12}>
+            <div className="content"> {this.toggleCategories()}</div>
+            </Cell>
+            </Grid>
+           
         </selection>
        </div>
      );
