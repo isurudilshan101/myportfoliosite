@@ -82,3 +82,18 @@ text-align: center;
   border: 2px solid red;
   margin-bottom: 20px;
 }
+
+.contact-grid h2{
+  font-family: 'Tahoma';
+
+}
+
+.contact-grid p{
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
