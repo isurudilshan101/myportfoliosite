@@ -16,7 +16,9 @@ import {Grid,Cell} from 'react-mdl';
                               />
 
                               </div> 
-                              <h2 style={{paddingTop:'2em'}}></h2>
+
+                              <h2 style={{paddingTop:'2em'}}>Isuru Dilshan</h2>
+                              <h4 style={{color:'gray'}}>Programmer</h4>
                        </Cell>
 
                        <Cell className="resume-right-col" col={8}>Right side</Cell>
