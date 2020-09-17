@@ -42,6 +42,15 @@ text-align: center;
   display: flex;
 }
 
+
+/* resume page*/
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+}
+
+
 .banner-text p{
   color:white;
   font-size: 20px;
