@@ -38,9 +38,26 @@ import Education from './education';
                            startYear="2016"
                            endYear="2021"
                            UniversityName="University of Kelaniya"
-                           UniversitDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+                           UniversityDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
 
                            />
+
+                           <Education 
+                           startYear="2012"
+                           endYear="2013"
+                           UniversityName="Dharmaraja School-Kandy"
+                           UniversityDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+
+                           />
+
+                          <Education 
+                           startYear="2013"
+                           endYear="2014"
+                           UniversityName="Gvt. Science College-Matale"
+                           UniversityDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+
+                           />
+
                        </Cell>
                    </Grid>
                 </div>
