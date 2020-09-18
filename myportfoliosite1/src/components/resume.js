@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Grid,Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 
  class Resume extends Component{
@@ -68,6 +69,8 @@ import Experience from './experience';
                             UniversityDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
                            />
                            <hr style={{borderTop:'3px solid #e22947'}}/>
+                           <h2>Skills</h2>
+                           <Skills/>
 
                        </Cell>
                    </Grid>
