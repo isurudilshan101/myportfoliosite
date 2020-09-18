@@ -6,8 +6,13 @@ class Education extends Component{
         return(
            <div>
               <Grid>
-                  <Cell col={4}>Left side </Cell>
-                  <Cell col={8}>Right side</Cell>
+                  <Cell col={4}>
+        <p>{this.props.startYear}- {this.props.endYear}</p>
+                  </Cell>
+                  <Cell col={8}>
+        <h4 style={{marginTop:'0px'}}>{this.props.schollName}</h4>
+        <p>{this.props.schoolDiscription}</p>
+                  </Cell>
               </Grid>
            </div>
         );
