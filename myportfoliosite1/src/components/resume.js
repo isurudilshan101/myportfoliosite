@@ -21,6 +21,14 @@ import {Grid,Cell} from 'react-mdl';
                               <h4 style={{color:'gray'}}>Programmer</h4>
                               <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
+                              <h5>Address</h5>
+                              <p>No:705, 19 Division,Handungamuwa,Matale.</p>
+                              <h5>Phone</h5>
+                              <p>0712859953</p>
+                              <h5>Email</h5>
+                              <p>isuru.dilshan101@gmail.com</p>
+                              <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
                        </Cell>
 
                        <Cell className="resume-right-col" col={8}>Right side</Cell>
