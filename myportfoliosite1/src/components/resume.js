@@ -68,9 +68,29 @@ import Skills from './skills';
                             UniversityName="Job name"
                             UniversityDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
                            />
+
                            <hr style={{borderTop:'3px solid #e22947'}}/>
+
                            <h2>Skills</h2>
-                           <Skills/>
+                           <Skills
+                           skills="JavaScript"
+                           progress={75}
+                           />
+
+                          <Skills
+                           skills="Java"
+                           progress={60}
+                           />
+
+                           <Skills
+                           skills="Reactjs"
+                           progress={75}
+                           />
+
+                           <Skills
+                           skills="Nodejs"
+                           progress={25}
+                           />
 
                        </Cell>
                    </Grid>
