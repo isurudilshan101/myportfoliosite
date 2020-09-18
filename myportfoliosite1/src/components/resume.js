@@ -78,7 +78,7 @@ import Skills from './skills';
                            />
 
                           <Skills
-                           skills="Java"
+                           skills="HTML/CSS"
                            progress={60}
                            />
 
